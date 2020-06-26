@@ -1,4 +1,5 @@
-class Dog 
-  attr_accessor :bark
-  @bark= "Woof!"
+class Dog
+  def bark
+    puts "Woof!"
+  end
 end
